@@ -15,6 +15,10 @@ import { ServicesComponent } from './services/services.component';
 import { ClientComponent } from './client/client.component';
 import { ProductsComponent } from './products/products.component';
 import { ContactComponent } from './contact/contact.component';
+import { TrainingComponent } from './training/training.component';
+import { TechnologyComponent } from './technology/technology.component';
+import { SecurityComponent } from './security/security.component';
+import { PrivacyPoliciesComponent } from './privacy-policies/privacy-policies.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +32,10 @@ import { ContactComponent } from './contact/contact.component';
     ClientComponent,
     ProductsComponent,
     ContactComponent,
+    TrainingComponent,
+    TechnologyComponent,
+    SecurityComponent,
+    PrivacyPoliciesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideClientHydration()],
